@@ -9,6 +9,7 @@
   "author": "Jaakko Lahtinen",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "uuid": "^8.3.2"
   },
   "type": "module"
