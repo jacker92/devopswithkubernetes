@@ -12,9 +12,10 @@ spec:
       labels:
         app: timestamp
     spec:
-      volumes: # Define volume
+      volumes:
         - name: shared-image
-          emptyDir: {}
+          persistentVolumeClaim:
+            claimName: image-claim
       containers:
         - name: timestamp-writer
           image: jacker92/timestamp-writer:latest
