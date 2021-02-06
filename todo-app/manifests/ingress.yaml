@@ -12,8 +12,3 @@ spec:
         backend:
           serviceName: todo-svc
           servicePort: 2345
-      - path: /pingpong
-        backend:
-          serviceName: pingpong-svc
-          servicePort: 2346
-            
