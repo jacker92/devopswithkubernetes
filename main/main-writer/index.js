@@ -1,16 +1,16 @@
 import { v4 as uuidv4 } from 'uuid';
 import express from 'express'
 import fs from 'fs'
+import axios from 'axios'
 
 const app = express()
 const port = 3000
 const value = uuidv4();
 
-app.get('/', (req, res) => {
-  fs.readFile('/usr/src/app/files/count.txt', (err, data) => {
-    res.send(`${new Date().toISOString()}: ${value}
-    Pings/Pongs: ${data}`)
-  })
+app.get('/', async (req, res) => {
+  const response = await axios.get('http://pingpong-svc:2346/count')
+  res.send(`${new Date().toISOString()}: ${value}
+  Pings/Pongs: ${response.data.count}`)
 })
 
 setInterval(() => {

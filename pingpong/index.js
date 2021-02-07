@@ -6,7 +6,10 @@ let counter = 0
 
 app.get('/', function (req, res) {
   counter++
-  fs.writeFile('/usr/src/app/files/count.txt', counter.toString(), err => {})
+  res.json({count: counter})
+})
+
+app.get('/count', function(req,res) {
   res.json({count: counter})
 })
 
