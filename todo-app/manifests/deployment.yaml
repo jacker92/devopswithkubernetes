@@ -12,13 +12,8 @@ spec:
       labels:
         app: todo
     spec:
-      volumes:
-        - name: shared-image
-          persistentVolumeClaim:
-            claimName: image-claim
       containers:
-        - name: todo
-          image: jacker92/todo:latest
-          volumeMounts:
-          - name: shared-image
-            mountPath: /public/images
+        - name: todo-frontend
+          image: jacker92/todo-frontend:latest
+        - name: todo-backend
+          image: jacker92/todo-backend:latest

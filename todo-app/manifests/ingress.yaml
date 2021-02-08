@@ -12,3 +12,7 @@ spec:
         backend:
           serviceName: todo-svc
           servicePort: 2345
+      - path: /api
+        backend:
+          serviceName: todo-svc
+          servicePort: 2346

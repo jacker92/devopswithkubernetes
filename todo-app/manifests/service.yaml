@@ -8,5 +8,10 @@ spec:
     app: todo
   ports:
     - port: 2345
+      name: todo-frontend
       protocol: TCP
-      targetPort: 3000
+      targetPort: 80
+    - port: 2346
+      name: todo-backend
+      protocol: TCP
+      targetPort: 3001
