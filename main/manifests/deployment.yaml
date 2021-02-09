@@ -20,11 +20,5 @@ spec:
       containers:
         - name: timestamp-writer
           image: jacker92/timestamp-writer:latest
-          volumeMounts: # Mount volume
-          - name: shared-image
-            mountPath: /usr/src/app/files
         - name: timestamp-reader
           image: jacker92/timestamp-reader:latest
-          volumeMounts: # Mount volume
-          - name: shared-image
-            mountPath: /usr/src/app/files
