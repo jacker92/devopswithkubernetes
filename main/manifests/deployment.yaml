@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: timestamp
+  namespace: exercises
   name: timestamp-dep
 spec:
   replicas: 1
@@ -13,10 +13,6 @@ spec:
       labels:
         app: timestamp
     spec:
-      volumes:
-        - name: shared-image
-          persistentVolumeClaim:
-            claimName: image-claim
       containers:
         - name: timestamp-writer
           image: jacker92/timestamp-writer:latest
