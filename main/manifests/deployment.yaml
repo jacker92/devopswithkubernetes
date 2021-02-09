@@ -16,5 +16,11 @@ spec:
       containers:
         - name: timestamp-writer
           image: jacker92/timestamp-writer:latest
+          env:
+          - name: MESSAGE
+            valueFrom:
+              configMapKeyRef:
+                name: dotenv-config
+                key: MESSAGE
         - name: timestamp-reader
           image: jacker92/timestamp-reader:latest
