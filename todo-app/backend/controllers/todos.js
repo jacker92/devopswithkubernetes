@@ -6,7 +6,7 @@ router.get('/', async (req, res) => {
     console.log("in get todo")
     const todos = await getTodos()
     console.log("Got response", todos)
-    res.json({ todos })
+    res.status(200).json({ todos })
 })
 
 router.post('/', (req, res) => {
