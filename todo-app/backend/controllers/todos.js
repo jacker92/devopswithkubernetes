@@ -1,16 +1,17 @@
 const express = require('express')
 const router = express.Router()
+const {addTodo, getTodos} = require('./../db')
 
-let todos = ["Clean kitchen"]
-
-router.get('/', (req, res) => {
+router.get('/', async (req, res) => {
     console.log("in get todo")
+    const todos = await getTodos()
+    console.log("Got response", todos)
     res.json({ todos })
 })
 
 router.post('/', (req, res) => {
-    todos.push(req.body.todo)
     if (req.body.todo) {
+        addTodo(req.body.todo)
         return res.status(201).send()
     }
     return res.status(400).send()
