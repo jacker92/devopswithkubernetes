@@ -16,3 +16,9 @@ spec:
       containers:
         - name: pingpong
           image: jacker92/pingpong:latest
+          env:
+          - name: POSTGRES_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                name: postgres
+                key: password
