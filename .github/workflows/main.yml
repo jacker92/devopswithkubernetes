@@ -4,7 +4,7 @@ on:
   push:
 
 env:
-  GKE_CLUSTER: dwk-project
+  GKE_CLUSTER: dwk-cluster
   GKE_ZONE: europe-north1-b
   BACKEND_IMAGE: todo-backend
   FRONTEND_IMAGE: todo-frontend
