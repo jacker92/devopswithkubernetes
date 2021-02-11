@@ -4,7 +4,7 @@ on:
   push:
 
 env:
-  GKE_CLUSTER: dwk-cluster
+  GKE_CLUSTER: dwk-project
   GKE_ZONE: europe-north1-b
   BACKEND_IMAGE: todo-backend
   FRONTEND_IMAGE: todo-frontend
@@ -57,6 +57,6 @@ jobs:
 
     - name: Deploy
       run: |-
-        ./kustomize edit set image PROJECT/IMAGE=$IMAGE_WITH_TAG
+        ./kustomize edit set image PROJECT/BACKEND_IMAGE=$BACKEND_IMAGE_WITH_TAG PROJECT/FRONTEND_IMAGE=$FRONTEND_IMAGE_WITH_TAG
         kubectl apply -k .
         kubectl rollout status deployment $IMAGE
