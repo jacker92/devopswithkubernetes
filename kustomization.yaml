@@ -4,7 +4,7 @@ resources:
   - todo-app/manifests/ingress.yaml
   - todo-app/manifests/service.yaml
   - todo-app/manifests/deployment.yaml
-  - https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.9.4/controller.yaml
+  - https://github.com/bitnami-labs/sealed-secrets/releases/download/v0.9.4/controller.yaml todo-app/manifests/sealedsecret.yaml
   - todo-app/manifests/sealedsecret.yaml
 images:
 - name: PROJECT/BACKEND_IMAGE
