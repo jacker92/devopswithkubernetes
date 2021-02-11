@@ -5,7 +5,8 @@ resources:
   - todo-app/manifests/ingress.yaml
   - todo-app/manifests/service.yaml
   - todo-app/manifests/deployment.yaml
-
+literals:
+  password=AgA/p1SXnpS+VzQl9zRUQCCQyvOtxFmUlNL3ulcw/ONeTMShrTmuai1H2DBngT/05OkfChil/AtbQ/kRAOTL5PZXve2BZ6QKK9kLgM/X9Si5vzUQc/Na1i5flZWe6itmm36q+/8VPJxbApoE6jWa+B0oLL6v0/9FXU9LYVsV7Ujt/6qZLx+tbx1xoIPgE5AXp7JMhgqG/9LOpG3RZ/65qZHIvcOVuTnuT2wd322SpfaUi1C64rCowqmyFAWUGjBT3c9cNrVsT7qBBvenb0i16wJVW42DqbESrE//sBg2cdNU2Dn6lvABIT5BNgSfVO7EegTtLabDHlMZs2AzVo3Q7c20rjE9FZjs7SRZYSAI6ifYd+HlewshWA2CkE7CwxM9WFPwId7TnOv6r+o1Eo6kXyekEoNIo5qgUBs/56QdwpBv35aIwypqQLyPRhPnUF/T/qa1JYm0Fsxzk4/wHVbr1z2lL9XxNvwk8NwmLy64I79L0IfdznvCIBAF3X998iMB7zjFW/3/wP6Jr8/OmJtKMbBmqH92VJKxK3I1AZP6l3yV4NuwhvpCvJZJuZuwFgKBwPY7eRD5O/h4nDhVOrtlwOapTLSw4RiNz7GuRv8mx/yK4nOKlWfgO5pY9fPQ+f9Oi2b3jbnRBtabJNTq5wXdB6mI5nzm4HYOwTKB9FXynCx3BLmydnZr6rivQTxL7qhh6Dyh4izDz+TIgw==
 images:
 - name: PROJECT/BACKEND_IMAGE
   newName: asdf
