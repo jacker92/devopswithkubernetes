@@ -35,12 +35,12 @@ jobs:
     - run: gcloud container clusters get-credentials "$GKE_CLUSTER" --zone "$GKE_ZONE"
 
     - name: Build backend
-      run: |
+      run: |-
       cd todo/backend
       docker build --tag "$BACKEND_IMAGE_WITH_TAG" .
 
     - name: Build frontend
-      run: |
+      run: |-
       cd todo/frontend
       docker build --tag "$FRONTEND_IMAGE_WITH_TAG" .
 
