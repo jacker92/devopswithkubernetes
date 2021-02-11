@@ -36,13 +36,13 @@ jobs:
 
     - name: Build backend
       run: |-
-      cd todo/backend
-      docker build --tag "$BACKEND_IMAGE_WITH_TAG" .
+        cd todo/backend
+        docker build --tag "$BACKEND_IMAGE_WITH_TAG" .
 
     - name: Build frontend
       run: |-
-      cd todo/frontend
-      docker build --tag "$FRONTEND_IMAGE_WITH_TAG" .
+        cd todo/frontend
+        docker build --tag "$FRONTEND_IMAGE_WITH_TAG" .
 
     - name: Publish backend
       run: docker push "$BACKEND_IMAGE_WITH_TAG"
