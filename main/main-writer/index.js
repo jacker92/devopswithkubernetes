@@ -8,7 +8,7 @@ const port = 3000
 const value = uuidv4();
 
 app.get('/', async (req, res) => {
-  const response = await axios.get('http://pingpong-svc:2346/count')
+  const response = await axios.get('http://pingpong-svc:2346/pingpong/count')
   res.send(`${process.env.MESSAGE}<br/>
   ${new Date().toISOString()}: ${value}<br/>
   Pings/Pongs: ${response.data.count}`)
