@@ -1,16 +1,18 @@
-apiVersion: extensions/v1beta1
+apiVersion: networking.k8s.io/v1beta1
 kind: Ingress
 metadata:
   name: dwk-material-ingress
+  annotations:
+    kubernetes.io/ingress.class: gce
 spec:
   rules:
   - http:
       paths:
-      - path: /
+      - path: /*
         backend:
           serviceName: todo-svc
           servicePort: 2345
-      - path: /api
+      - path: /api/*
         backend:
           serviceName: todo-svc
           servicePort: 2346
