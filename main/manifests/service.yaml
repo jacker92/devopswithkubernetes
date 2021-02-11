@@ -4,7 +4,7 @@ metadata:
   name: main-svc
   namespace: exercises
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: timestamp
   ports:
