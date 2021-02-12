@@ -12,7 +12,7 @@ const appDir = path.dirname(require.main.filename);
 app.use(bodyParser.json())
 
 app.get('/', (req, res) => {
-  res.status(200).send();
+  res.status(200).end();
 })
 
 app.get('/api/images', (req,res) => {
