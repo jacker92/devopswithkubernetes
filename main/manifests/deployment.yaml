@@ -16,6 +16,10 @@ spec:
       containers:
         - name: timestamp-writer
           image: jacker92/timestamp-writer:latest
+          resources:
+            limits:
+              cpu: "25m"
+              memory: "200Mi"
           env:
           - name: MESSAGE
             valueFrom:
@@ -24,3 +28,7 @@ spec:
                 key: MESSAGE
         - name: timestamp-reader
           image: jacker92/timestamp-reader:latest
+          resources:
+            limits:
+              cpu: "25m"
+              memory: "200Mi"
