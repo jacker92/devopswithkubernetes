@@ -11,11 +11,15 @@ const appDir = path.dirname(require.main.filename);
 
 app.use(bodyParser.json())
 
-app.get('/images', (req,res) => {
+app.get('/', (req, res) => {
+  res.status(200).send();
+})
+
+app.get('/api/images', (req,res) => {
 res.sendFile(path.join(appDir, '1200.jpg'))
 })
 
-app.use('/todos', todos)
+app.use('/api/todos', todos)
 
 app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`)
