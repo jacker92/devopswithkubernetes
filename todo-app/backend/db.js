@@ -1,11 +1,13 @@
 const { Pool } = require("pg");
 
+console.log("The password is", process.env.POSTGRES_PASSWORD)
+
 const pool =  new Pool({
     user: "postgres",
     host: "postgres-svc",
     database: "postgres",
     password: process.env.POSTGRES_PASSWORD,
-    port: "2347"
+    port: "5432"
 });
 
 const initDB = async () => {
