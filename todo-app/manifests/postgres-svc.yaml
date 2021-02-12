@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: postgres-svc
 spec:
-  type: ClusterIP
   selector:
     app: postgres
   ports:
