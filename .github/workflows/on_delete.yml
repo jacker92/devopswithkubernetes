@@ -29,4 +29,4 @@ jobs:
 
     - name: Delete
       run: |-
-        kubectl delete namespace project-${{ github.event.ref }} || true
+        kubectl delete namespace ${{ github.event.ref }} || true
