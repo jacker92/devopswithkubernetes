@@ -17,3 +17,7 @@ This repository contains all tasks mentioned in [DevOps with Kubernetes 2020](ht
 (+) Cheaper alternative  
 (-) No simple way to limit database size  
 (-) Node failure could cause data loss
+
+## Task 3.07 - Commitment
+
+I chose Postgres. Reason was because I had already implemented project with it in previous assignments. 
