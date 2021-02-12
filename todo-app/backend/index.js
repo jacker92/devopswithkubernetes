@@ -6,6 +6,8 @@ const app = express()
 const port = 3001
 const download_image = require('./utils')
 
+console.log("Recent version!")
+
 download_image('https://picsum.photos/1200', '1200.jpg')
 const appDir = path.dirname(require.main.filename);
 
