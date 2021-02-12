@@ -4,6 +4,8 @@ resources:
   - todo-app/manifests/ingress.yaml
   - todo-app/manifests/service.yaml
   - todo-app/manifests/deployment.yaml
+  - todo-app/manifests/postgres-deployment.yaml
+  - todo-app/manifests/postgres-svc.yaml
 
 images:
 - name: PROJECT/BACKEND_IMAGE
