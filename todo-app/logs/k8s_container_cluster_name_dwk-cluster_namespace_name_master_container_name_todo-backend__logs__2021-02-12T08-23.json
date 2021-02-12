@@ -1,0 +1,3866 @@
+[
+  {
+    "textPayload": "Got response [ { id: 1, content: 'helo' }, { id: 2, content: 'My New Todo' } ]\n",
+    "insertId": "yp5y8tg2e1pndn",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "project_id": "dwk-project-304506",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619800394Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "}\n",
+    "insertId": "yp5y8tg2e1pndm",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619585594Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "  rowAsArray: false\n",
+    "insertId": "yp5y8tg2e1pndl",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619580474Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "  RowCtor: null,\n",
+    "insertId": "yp5y8tg2e1pndk",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619575169Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "  },\n",
+    "insertId": "yp5y8tg2e1pndj",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "namespace_name": "master",
+        "location": "europe-north1-b"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619570134Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "    binary: {}\n",
+    "insertId": "yp5y8tg2e1pndi",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619565014Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "    text: {},\n",
+    "insertId": "yp5y8tg2e1pndh",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619559945Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "    },\n",
+    "insertId": "yp5y8tg2e1pndg",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619554867Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      builtins: [Object]\n",
+    "insertId": "yp5y8tg2e1pndf",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "cluster_name": "dwk-cluster",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619550089Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      arrayParser: [Object],\n",
+    "insertId": "yp5y8tg2e1pnde",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619545027Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      setTypeParser: [Function: setTypeParser],\n",
+    "insertId": "yp5y8tg2e1pndd",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619539947Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      getTypeParser: [Function: getTypeParser],\n",
+    "insertId": "yp5y8tg2e1pndc",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "namespace_name": "master"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619534617Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "    _types: {\n",
+    "insertId": "yp5y8tg2e1pndb",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619529484Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "  _types: TypeOverrides {\n",
+    "insertId": "yp5y8tg2e1pnda",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619524274Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "  _parsers: [ [Function: parseInteger], [Function: noParse] ],\n",
+    "insertId": "yp5y8tg2e1pnd9",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619518995Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "  ],\n",
+    "insertId": "yp5y8tg2e1pnd8",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619513680Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "    }\n",
+    "insertId": "yp5y8tg2e1pnd7",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619508537Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      format: 'text'\n",
+    "insertId": "yp5y8tg2e1pnd6",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619503682Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      dataTypeModifier: 2004,\n",
+    "insertId": "yp5y8tg2e1pnd5",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619498785Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      dataTypeSize: -1,\n",
+    "insertId": "yp5y8tg2e1pnd4",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619493746Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      dataTypeID: 1043,\n",
+    "insertId": "yp5y8tg2e1pnd3",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "dwk-cluster",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619488245Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      columnID: 2,\n",
+    "insertId": "yp5y8tg2e1pnd2",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619477345Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      tableID: 16386,\n",
+    "insertId": "yp5y8tg2e1pnd1",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619472201Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      name: 'content',\n",
+    "insertId": "yp5y8tg2e1pnd0",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619467425Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "    Field {\n",
+    "insertId": "yp5y8tg2e1pncz",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619463082Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "    },\n",
+    "insertId": "yp5y8tg2e1pncy",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "project_id": "dwk-project-304506",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b",
+        "container_name": "todo-backend",
+        "namespace_name": "master"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619458479Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      format: 'text'\n",
+    "insertId": "yp5y8tg2e1pncx",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619453671Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      dataTypeModifier: -1,\n",
+    "insertId": "yp5y8tg2e1pncw",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619448834Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      dataTypeSize: 4,\n",
+    "insertId": "yp5y8tg2e1pncv",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619444098Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      dataTypeID: 23,\n",
+    "insertId": "yp5y8tg2e1pncu",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619439202Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      columnID: 1,\n",
+    "insertId": "yp5y8tg2e1pnct",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619434271Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      tableID: 16386,\n",
+    "insertId": "yp5y8tg2e1pncs",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619428895Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      name: 'id',\n",
+    "insertId": "yp5y8tg2e1pncr",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619408664Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "    Field {\n",
+    "insertId": "yp5y8tg2e1pncq",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619403096Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "  fields: [\n",
+    "insertId": "yp5y8tg2e1pncp",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619397195Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "  rows: [ { id: 1, content: 'helo' }, { id: 2, content: 'My New Todo' } ],\n",
+    "insertId": "yp5y8tg2e1pnco",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619391692Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "  oid: null,\n",
+    "insertId": "yp5y8tg2e1pncn",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619385340Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "  rowCount: 2,\n",
+    "insertId": "yp5y8tg2e1pncm",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619378787Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "  command: 'SELECT',\n",
+    "insertId": "yp5y8tg2e1pncl",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619369627Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "Got response count from db Result {\n",
+    "insertId": "yp5y8tg2e1pnck",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "project_id": "dwk-project-304506",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b",
+        "namespace_name": "master"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.619317008Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "}\n",
+    "insertId": "yp5y8tg2e1pncj",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "location": "europe-north1-b",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.616719249Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "  rowAsArray: false\n",
+    "insertId": "yp5y8tg2e1pnci",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.616713343Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "  RowCtor: null,\n",
+    "insertId": "yp5y8tg2e1pnch",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "project_id": "dwk-project-304506",
+        "cluster_name": "dwk-cluster",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "location": "europe-north1-b"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.616707616Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "  },\n",
+    "insertId": "yp5y8tg2e1pncf",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "namespace_name": "master"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.616702314Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "    binary: {}\n",
+    "insertId": "yp5y8tg2e1pncd",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.616697095Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "    text: {},\n",
+    "insertId": "yp5y8tg2e1pncc",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.616691611Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "    },\n",
+    "insertId": "yp5y8tg2e1pnc9",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.616686166Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      builtins: [Object]\n",
+    "insertId": "yp5y8tg2e1pnc7",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.616680929Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      arrayParser: [Object],\n",
+    "insertId": "yp5y8tg2e1pnc5",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.616675576Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      setTypeParser: [Function: setTypeParser],\n",
+    "insertId": "yp5y8tg2e1pnc4",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.616669969Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "      getTypeParser: [Function: getTypeParser],\n",
+    "insertId": "yp5y8tg2e1pnc2",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.616664081Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "    _types: {\n",
+    "insertId": "yp5y8tg2e1pnc1",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.616658240Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "  _types: TypeOverrides {\n",
+    "insertId": "yp5y8tg2e1pnc0",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.616652223Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "  _parsers: undefined,\n",
+    "insertId": "yp5y8tg2e1pnby",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.616646419Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "  fields: [],\n",
+    "insertId": "yp5y8tg2e1pnbx",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.616640935Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "  rows: [],\n",
+    "insertId": "yp5y8tg2e1pnbw",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.616635129Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "  oid: 0,\n",
+    "insertId": "yp5y8tg2e1pnbv",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.616629207Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "  rowCount: 1,\n",
+    "insertId": "yp5y8tg2e1pnbu",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend",
+        "namespace_name": "master"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.616622688Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "  command: 'INSERT',\n",
+    "insertId": "yp5y8tg2e1pnbt",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b",
+        "container_name": "todo-backend"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.616613224Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "Got response count from db Result {\n",
+    "insertId": "yp5y8tg2e1pnbs",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "location": "europe-north1-b"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.616555670Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "in get todo\n",
+    "insertId": "yp5y8tg2e1pnbr",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:23:58.417289597Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:23:59.009345453Z"
+  },
+  {
+    "textPayload": "Got response [ { id: 1, content: 'helo' } ]\n",
+    "insertId": "atquctg2pxxy3n",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924373473Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "}\n",
+    "insertId": "atquctg2pxxy3j",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924191347Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "  rowAsArray: false\n",
+    "insertId": "atquctg2pxxy3g",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924186165Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "  RowCtor: null,\n",
+    "insertId": "atquctg2pxxy3d",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924181219Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "  },\n",
+    "insertId": "atquctg2pxxy3a",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924176335Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "    binary: {}\n",
+    "insertId": "atquctg2pxxy37",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924171318Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "    text: {},\n",
+    "insertId": "atquctg2pxxy34",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924166514Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "    },\n",
+    "insertId": "atquctg2pxxy30",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924161759Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "      builtins: [Object]\n",
+    "insertId": "atquctg2pxxy2x",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924156691Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "      arrayParser: [Object],\n",
+    "insertId": "atquctg2pxxy2u",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924151536Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "      setTypeParser: [Function: setTypeParser],\n",
+    "insertId": "atquctg2pxxy2r",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924146184Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "      getTypeParser: [Function: getTypeParser],\n",
+    "insertId": "atquctg2pxxy2o",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924140889Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "    _types: {\n",
+    "insertId": "atquctg2pxxy2k",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924135608Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "  _types: TypeOverrides {\n",
+    "insertId": "atquctg2pxxy2i",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924130404Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "  _parsers: [ [Function: parseInteger], [Function: noParse] ],\n",
+    "insertId": "atquctg2pxxy2f",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924124938Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "  ],\n",
+    "insertId": "atquctg2pxxy2c",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924119240Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "    }\n",
+    "insertId": "atquctg2pxxy27",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924097040Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "      format: 'text'\n",
+    "insertId": "atquctg2pxxy26",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "container_name": "todo-backend",
+        "namespace_name": "master"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924092226Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "      dataTypeModifier: 2004,\n",
+    "insertId": "atquctg2pxxy25",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924087084Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "      dataTypeSize: -1,\n",
+    "insertId": "atquctg2pxxy24",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924082603Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "      dataTypeID: 1043,\n",
+    "insertId": "atquctg2pxxy23",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924078156Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "      columnID: 2,\n",
+    "insertId": "atquctg2pxxy22",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924073704Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "      tableID: 16386,\n",
+    "insertId": "atquctg2pxxy20",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924069054Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "      name: 'content',\n",
+    "insertId": "atquctg2pxxy1z",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924064238Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "    Field {\n",
+    "insertId": "atquctg2pxxy1y",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924059585Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "    },\n",
+    "insertId": "atquctg2pxxy1x",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "project_id": "dwk-project-304506",
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924055075Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "      format: 'text'\n",
+    "insertId": "atquctg2pxxy1w",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924050441Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "      dataTypeModifier: -1,\n",
+    "insertId": "atquctg2pxxy1v",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "location": "europe-north1-b",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924045857Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "      dataTypeSize: 4,\n",
+    "insertId": "atquctg2pxxy1u",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924041029Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "      dataTypeID: 23,\n",
+    "insertId": "atquctg2pxxy1t",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924035366Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "      columnID: 1,\n",
+    "insertId": "atquctg2pxxy1s",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.924003403Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "      tableID: 16386,\n",
+    "insertId": "atquctg2pxxy1r",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "namespace_name": "master"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.923999005Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "      name: 'id',\n",
+    "insertId": "atquctg2pxxy1q",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.923994424Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "    Field {\n",
+    "insertId": "atquctg2pxxy1p",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.923990077Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "  fields: [\n",
+    "insertId": "atquctg2pxxy1o",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.923984894Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "  rows: [ { id: 1, content: 'helo' } ],\n",
+    "insertId": "atquctg2pxxy1n",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.923972139Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "  oid: null,\n",
+    "insertId": "atquctg2pxxy1m",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.923966844Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "  rowCount: 1,\n",
+    "insertId": "atquctg2pxxy1l",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.923961662Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "  command: 'SELECT',\n",
+    "insertId": "atquctg2pxxy1k",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.923954131Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "Got response count from db Result {\n",
+    "insertId": "atquctg2pxxy1j",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b",
+        "namespace_name": "master"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.923916046Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "in get todo\n",
+    "insertId": "atquctg2pxxy1i",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "container_name": "todo-backend"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:15.922485052Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:19.009383284Z"
+  },
+  {
+    "textPayload": "Got response [ { id: 1, content: 'helo' } ]\n",
+    "insertId": "zsnoy9g23rpaa5",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818681908Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "}\n",
+    "insertId": "zsnoy9g23rpaa4",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818670273Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "  rowAsArray: false\n",
+    "insertId": "zsnoy9g23rpaa3",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818665224Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "  RowCtor: null,\n",
+    "insertId": "zsnoy9g23rpaa2",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818660338Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "  },\n",
+    "insertId": "zsnoy9g23rpaa1",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818655422Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "    binary: {}\n",
+    "insertId": "zsnoy9g23rpaa0",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "project_id": "dwk-project-304506",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "location": "europe-north1-b",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818650423Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "    text: {},\n",
+    "insertId": "zsnoy9g23rpa9z",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "project_id": "dwk-project-304506",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "namespace_name": "master",
+        "location": "europe-north1-b"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818645385Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "    },\n",
+    "insertId": "zsnoy9g23rpa9y",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818640211Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      builtins: [Object]\n",
+    "insertId": "zsnoy9g23rpa9x",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818634573Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      arrayParser: [Object],\n",
+    "insertId": "zsnoy9g23rpa9w",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "location": "europe-north1-b",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818629309Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      setTypeParser: [Function: setTypeParser],\n",
+    "insertId": "zsnoy9g23rpa9v",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818624050Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      getTypeParser: [Function: getTypeParser],\n",
+    "insertId": "zsnoy9g23rpa9u",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "project_id": "dwk-project-304506",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "location": "europe-north1-b"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818618493Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "    _types: {\n",
+    "insertId": "zsnoy9g23rpa9t",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818613336Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "  _types: TypeOverrides {\n",
+    "insertId": "zsnoy9g23rpa9s",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818608236Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "  _parsers: [ [Function: parseInteger], [Function: noParse] ],\n",
+    "insertId": "zsnoy9g23rpa9r",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818602907Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "  ],\n",
+    "insertId": "zsnoy9g23rpa9q",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818597649Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "    }\n",
+    "insertId": "zsnoy9g23rpa9p",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818592402Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      format: 'text'\n",
+    "insertId": "zsnoy9g23rpa9o",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818587080Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      dataTypeModifier: 2004,\n",
+    "insertId": "zsnoy9g23rpa9n",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818581842Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      dataTypeSize: -1,\n",
+    "insertId": "zsnoy9g23rpa9m",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818557262Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      dataTypeID: 1043,\n",
+    "insertId": "zsnoy9g23rpa9l",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818552589Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      columnID: 2,\n",
+    "insertId": "zsnoy9g23rpa9k",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818547581Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      tableID: 16386,\n",
+    "insertId": "zsnoy9g23rpa9j",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818542616Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      name: 'content',\n",
+    "insertId": "zsnoy9g23rpa9i",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818537523Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "    Field {\n",
+    "insertId": "zsnoy9g23rpa9h",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818532575Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "    },\n",
+    "insertId": "zsnoy9g23rpa9g",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818527481Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      format: 'text'\n",
+    "insertId": "zsnoy9g23rpa9f",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818522417Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      dataTypeModifier: -1,\n",
+    "insertId": "zsnoy9g23rpa9e",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818517313Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      dataTypeSize: 4,\n",
+    "insertId": "zsnoy9g23rpa9d",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818512335Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      dataTypeID: 23,\n",
+    "insertId": "zsnoy9g23rpa9c",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "location": "europe-north1-b",
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818507417Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      columnID: 1,\n",
+    "insertId": "zsnoy9g23rpa9b",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818502627Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      tableID: 16386,\n",
+    "insertId": "zsnoy9g23rpa9a",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "project_id": "dwk-project-304506",
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818497607Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      name: 'id',\n",
+    "insertId": "zsnoy9g23rpa99",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818492763Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "    Field {\n",
+    "insertId": "zsnoy9g23rpa98",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "project_id": "dwk-project-304506",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818487459Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "  fields: [\n",
+    "insertId": "zsnoy9g23rpa97",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "container_name": "todo-backend"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818474980Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "  rows: [ { id: 1, content: 'helo' } ],\n",
+    "insertId": "zsnoy9g23rpa96",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818452350Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "  oid: null,\n",
+    "insertId": "zsnoy9g23rpa95",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818329165Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "  rowCount: 1,\n",
+    "insertId": "zsnoy9g23rpa94",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.818190976Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "  command: 'SELECT',\n",
+    "insertId": "zsnoy9g23rpa93",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.817979629Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "Got response count from db Result {\n",
+    "insertId": "zsnoy9g23rpa92",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.817532936Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "}\n",
+    "insertId": "zsnoy9g23rpa91",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "container_name": "todo-backend"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.716566687Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "  rowAsArray: false\n",
+    "insertId": "zsnoy9g23rpa90",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.716562029Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "  RowCtor: null,\n",
+    "insertId": "zsnoy9g23rpa8z",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "cluster_name": "dwk-cluster",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.716557468Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "  },\n",
+    "insertId": "zsnoy9g23rpa8y",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.716552816Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "    binary: {}\n",
+    "insertId": "zsnoy9g23rpa8x",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.716548176Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "    text: {},\n",
+    "insertId": "zsnoy9g23rpa8w",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "project_id": "dwk-project-304506",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.716543685Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "    },\n",
+    "insertId": "zsnoy9g23rpa8v",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.716538982Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      builtins: [Object]\n",
+    "insertId": "zsnoy9g23rpa8u",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.716534634Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      arrayParser: [Object],\n",
+    "insertId": "zsnoy9g23rpa8t",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "cluster_name": "dwk-cluster",
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.716529696Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      setTypeParser: [Function: setTypeParser],\n",
+    "insertId": "zsnoy9g23rpa8r",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.716524684Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "      getTypeParser: [Function: getTypeParser],\n",
+    "insertId": "zsnoy9g23rpa8p",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.716519819Z",
+    "severity": "INFO",
+    "labels": {
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "    _types: {\n",
+    "insertId": "zsnoy9g23rpa8o",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "project_id": "dwk-project-304506",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.716515191Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "  _types: TypeOverrides {\n",
+    "insertId": "zsnoy9g23rpa8n",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.716510034Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "  _parsers: undefined,\n",
+    "insertId": "zsnoy9g23rpa8m",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "container_name": "todo-backend",
+        "project_id": "dwk-project-304506",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "location": "europe-north1-b"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.716504680Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "  fields: [],\n",
+    "insertId": "zsnoy9g23rpa8l",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.716500108Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "  rows: [],\n",
+    "insertId": "zsnoy9g23rpa8k",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "namespace_name": "master",
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "cluster_name": "dwk-cluster",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.716495299Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "  oid: 0,\n",
+    "insertId": "zsnoy9g23rpa8j",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "namespace_name": "master",
+        "project_id": "dwk-project-304506",
+        "container_name": "todo-backend",
+        "location": "europe-north1-b",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "cluster_name": "dwk-cluster"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.716490752Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "k8s-pod/app": "todo",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "  rowCount: 1,\n",
+    "insertId": "zsnoy9g23rpa8i",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "location": "europe-north1-b",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master",
+        "cluster_name": "dwk-cluster",
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.716485078Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  },
+  {
+    "textPayload": "  command: 'INSERT',\n",
+    "insertId": "zsnoy9g23rpa8h",
+    "resource": {
+      "type": "k8s_container",
+      "labels": {
+        "container_name": "todo-backend",
+        "pod_name": "todo-dep-5bdb6bb4b4-nc7ss",
+        "location": "europe-north1-b",
+        "cluster_name": "dwk-cluster",
+        "project_id": "dwk-project-304506",
+        "namespace_name": "master"
+      }
+    },
+    "timestamp": "2021-02-12T18:08:12.716477475Z",
+    "severity": "INFO",
+    "labels": {
+      "k8s-pod/pod-template-hash": "5bdb6bb4b4",
+      "compute.googleapis.com/resource_name": "gke-dwk-cluster-default-pool-1d0bde21-13s8",
+      "k8s-pod/app": "todo"
+    },
+    "logName": "projects/dwk-project-304506/logs/stdout",
+    "receiveTimestamp": "2021-02-12T18:08:14.012381019Z"
+  }
+]
