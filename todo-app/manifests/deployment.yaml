@@ -15,8 +15,16 @@ spec:
       containers:
         - name: todo-frontend
           image: jacker92/todo-frontend:latest
+          resources:
+            limits:
+              cpu: "25m"
+              memory: "100Mi"
         - name: todo-backend
           image: jacker92/todo-backend:latest
+          resources:
+            limits:
+              cpu: "25m"
+              memory: "100Mi"
           env:
           - name: POSTGRES_PASSWORD
             valueFrom:
