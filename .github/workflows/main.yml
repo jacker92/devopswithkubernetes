@@ -61,5 +61,6 @@ jobs:
         kubectl config set-context --current --namespace=${GITHUB_REF#refs/heads/}
         ./kustomize edit set namespace ${GITHUB_REF#refs/heads/}
         ./kustomize edit set image PROJECT/BACKEND_IMAGE=$BACKEND_IMAGE_WITH_TAG PROJECT/FRONTEND_IMAGE=$FRONTEND_IMAGE_WITH_TAG
+        kubectl create secret generic postgres --from-literal=password=${{ secrets.POSTGRES_PASSWORD }}
         kubectl kustomize .
         kubectl apply -k .
