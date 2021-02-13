@@ -1,0 +1,16 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AnalysisTemplate
+metadata:
+  name: cpu-rate
+spec:
+  metrics:
+  - name: cpu-rate
+    initialDelay: 2m
+    successCondition: result < 2
+    provider:
+      prometheus:
+        address: http://kube-prometheus-stack-1613-prometheus.prometheus.svc.cluster.local:9090
+        query: |
+          scalar(
+            sum(container_cpu_load_average_10s{namespace="todo"})
+          )
