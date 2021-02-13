@@ -16,6 +16,12 @@ spec:
       containers:
         - name: pingpong
           image: jacker92/pingpong:latest
+          readinessProbe:
+            initialDelaySeconds: 10
+            periodSeconds: 5
+            httpGet:
+               path: /
+               port: 3001
           resources:
             limits:
               cpu: "25m"

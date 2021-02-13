@@ -16,6 +16,12 @@ spec:
       containers:
         - name: timestamp-writer
           image: jacker92/timestamp-writer:latest
+          readinessProbe:
+            initialDelaySeconds: 10
+            periodSeconds: 5
+            httpGet:
+               path: /
+               port: 3000
           resources:
             limits:
               cpu: "25m"
