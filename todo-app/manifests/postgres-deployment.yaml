@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: StatefulSet
 metadata:
   name: postgres
+  namespace: todo
 spec:
   replicas: 1
   serviceName: postgres-svc
@@ -18,7 +19,7 @@ spec:
           image: postgres:13.1
           resources:
             limits:
-              cpu: "25m"
+              cpu: "250m"
               memory: "200Mi"
           ports:
             - name: web
