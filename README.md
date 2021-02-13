@@ -21,3 +21,8 @@ This repository contains all tasks mentioned in [DevOps with Kubernetes 2020](ht
 ## Task 3.07 - Commitment
 
 I chose Postgres. Reason was because I had already implemented project with it in previous assignments. 
+
+## Task 4.03 Prometheus
+
+**Query**:  
+scalar(count(kube_pod_info{namespace='prometheus',created_by_kind='StatefulSet'}))
