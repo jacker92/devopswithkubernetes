@@ -24,7 +24,7 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         tags: ${{ github.sha }}
-        path: /todo-app/backend
+        path: todo-app/backend
 
     - name: Publish frontend to Registry
       uses: docker/build-push-action@v1
@@ -33,7 +33,7 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         tags: ${{ github.sha }}
-        path: /todo-app/frontend
+        path: todo-app/frontend
 
     - name: Publish broadcaster to Registry
       uses: docker/build-push-action@v1
@@ -42,7 +42,7 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         tags: ${{ github.sha }}
-        path: /todo-app/broadcaster
+        path: todo-app/broadcaster
       
 
   deploy:
