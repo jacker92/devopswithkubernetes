@@ -5,11 +5,11 @@ import TodoList from './components/TodoList'
 
 const App = () => {
   const [todo, setTodo] = useState('')
-  const [todos, setTodos] = useState([])
+  const [todos, setTodos] = useState([{id:1, done:true}])
 
   useEffect(async () => {
-    const res = await getTodos()
-    setTodos(res)
+      const res = await getTodos()
+      setTodos(res)
   }, [])
 
   const addTodo = async () => {
@@ -26,13 +26,19 @@ const App = () => {
     return response.data.todos
   }
 
+  const updateTodo = async (id, done) => {
+    console.log("Updating todo", id, done)
+    const response = await axios.put('api/todos', {id, done})
+    console.log("Got response", response)
+  }
+
   return (
     <div>
       <img src="api/images" style={{ width: '500px', height: '500px' }} />
       <br />
       <input onChange={e => setTodo(e.target.value)} type="text" maxLength="140" />
       <button onClick={e => addTodo()}>Add TODO</button>
-      <TodoList todos={todos} />
+      <TodoList setTodos={setTodos} todos={todos} updateTodo={updateTodo} />
     </div>
   );
 }

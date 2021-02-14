@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const {addTodo, getTodos} = require('./../db')
+const {addTodo, getTodos, updateTodo} = require('./../db')
 
 router.get('/', async (req, res) => {
     console.log("in get todo")
@@ -15,6 +15,13 @@ router.post('/', (req, res) => {
         return res.status(201).send()
     }
     return res.status(400).send()
+})
+
+router.put('/', async (req,res) => {
+    console.log("Updating todo", req.body)
+    const response = await updateTodo(req.body.id, req.body.done)
+    console.log(response)
+    return res.status(200).send()
 })
 
 module.exports = router
