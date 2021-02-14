@@ -5,12 +5,10 @@ metadata:
 spec:
   metrics:
   - name: cpu-rate
-    initialDelay: 2m
+    initialDelay: 10m
     successCondition: result < 0.5
     provider:
       prometheus:
         address: http://kube-prometheus-stack-1613-prometheus.prometheus.svc.cluster.local:9090
         query: |
-          scalar(
-            sum(container_cpu_load_average_10s{namespace="todo"})
-          )
+            sum (rate (container_cpu_usage_seconds_total{namespace="todo"}[1m])) 

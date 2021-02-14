@@ -1,13 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
-  name: todo-update-dep
+  name: todo-update
+  namespace: todo
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: todo-update
-   strategy:
+      app: todo
+  strategy:
     canary:
       steps:
       - setWeight: 50
@@ -15,3 +16,38 @@ spec:
           templates:
           - templateName: cpu-rate
   template:
+    metadata:
+      labels:
+        app: todo
+    spec:
+      containers:
+        - name: todo-frontend
+          image: jacker92/todo-frontend:latest
+          resources:
+            limits:
+              cpu: "500m"
+              memory: "500Mi"
+        - name: todo-backend
+          image: jacker92/todo-backend:latest
+          readinessProbe:
+            initialDelaySeconds: 10
+            periodSeconds: 5
+            httpGet:
+               path: /
+               port: 3001
+          livenessProbe:
+            initialDelaySeconds: 60
+            periodSeconds: 5
+            httpGet:
+               path: /
+               port: 3001
+          resources:
+            limits:
+              cpu: "500m"
+              memory: "500Mi"
+          env:
+          - name: POSTGRES_PASSWORD
+            valueFrom:
+              secretKeyRef:
+                name: postgres
+                key: password
