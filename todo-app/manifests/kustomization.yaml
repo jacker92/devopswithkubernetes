@@ -1,17 +1,19 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - ingress.yaml
-  - service.yaml
-  - deployment.yaml
-  - postgres-deployment.yaml
-  - postgres-svc.yaml
+- ingress.yaml
+- service.yaml
+- deployment.yaml
+- postgres-deployment.yaml
+- postgres-svc.yaml
 
 images:
 - name: BACKEND_IMAGE
   newName: jacker92/todo-backend
-- name: FRONTEND_IMAGE
-  newName: jacker92/todo-frontend
+  newTag: a1493fb922d6344c3d1ba7a0c678e816887dd45a
 - name: BROADCASTER_IMAGE
   newName: jacker92/broadcaster
-
+  newTag: a1493fb922d6344c3d1ba7a0c678e816887dd45a
+- name: FRONTEND_IMAGE
+  newName: jacker92/todo-frontend
+  newTag: a1493fb922d6344c3d1ba7a0c678e816887dd45a
