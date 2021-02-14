@@ -1,6 +1,9 @@
 const express = require('express')
 const router = express.Router()
 const {addTodo, getTodos, updateTodo} = require('./../db')
+const NATS = require('nats')
+
+const nc = NATS.connect({url: process.env.NATS_URL});
 
 router.get('/', async (req, res) => {
     console.log("in get todo")
@@ -11,6 +14,7 @@ router.get('/', async (req, res) => {
 
 router.post('/', (req, res) => {
     if (req.body.todo) {
+        nc.publish('todos', "Todo added");
         addTodo(req.body.todo)
         return res.status(201).send()
     }

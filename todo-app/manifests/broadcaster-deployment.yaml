@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: todo-broadcaster
+  namespace: todo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: todo
+  template:
+    metadata:
+      labels:
+        app: todo
+    spec:
+      containers:
+        - name: todo-broadcaster
+          image: jacker92/broadcaster:latest
+          env:
+          - name: NATS_URL
+            value: nats://my-nats:4222
+          - name: PAYLOAD_URL
+            value: http://localhost:3005
