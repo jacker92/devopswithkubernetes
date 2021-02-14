@@ -1,7 +1,7 @@
 name: Release application
 
-on:
-  push:
+# on:
+ # push:
 
 env:
   GKE_CLUSTER: dwk-cluster
