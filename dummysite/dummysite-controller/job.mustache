@@ -1,0 +1,14 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {{{ job_name }}}
+spec:
+  template:
+    spec:
+      containers:
+      - name: {{{ container_name }}}
+        image: jacker92/dummysite-loader:latest
+        env:
+        - name: WEBSITE_URL
+          value: {{{website_url}}}
+      restartPolicy: Never
