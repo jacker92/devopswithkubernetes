@@ -18,7 +18,7 @@ spec:
           image: jacker92/todo-frontend:latest
           resources:
             limits:
-              cpu: "500m"
+              cpu: "100m"
               memory: "500Mi"
         - name: todo-backend
           image: jacker92/todo-backend:latest
@@ -36,7 +36,7 @@ spec:
                port: 3001
           resources:
             limits:
-              cpu: "500m"
+              cpu: "100m"
               memory: "500Mi"
           env:
           - name: POSTGRES_PASSWORD
