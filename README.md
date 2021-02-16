@@ -125,14 +125,42 @@ Column "Selection" can be one of the following:
 | Knative | 1 | Knative was used in part 5
 
 
-### Scheduling & Orchestration
+### Orchestration & Management - Scheduling & Orchestration
+| Service/Logo | Selection | Description |
+| :------------ |:---------| :-----------:| 
+| Kubernetes | 1 | This was used on this course|
+| Docker Swarm| 3 | - | 
+| Azure Service Fabric | 3 | - |
 
 
+### Orchestration & Management - Service Mesh
+| Service/Logo | Selection | Description |
+| :------------ |:---------| :-----------:| 
+| Linkerd | 1 | Linkerd was used in part 5 | 
 
+### Runtime - Cloud Native Storage
+| Service/Logo | Selection | Description |
+| :------------ |:---------| :-----------:| 
+| Azure Disk Storage | 3 | - |
 
+### Runtime - Container Runtime
+| Service/Logo | Selection | Description |
+| :------------ |:---------| :-----------:| 
+| Docker | 1 | Docker was the container runtime selection in this course
 
+### Provisioning - Automation & Configuration
+| Service/Logo | Selection | Description |
+| :------------ |:---------| :-----------:| 
+| Puppet | 3 | - |
 
+### Provisioning - Container Registry
+| Service/Logo | Selection | Description |
+| :------------ |:---------| :-----------:| 
+| Azure Registry | 3 | - |
+| Docker Registry | 1 | Docker Registry was used on this course most of the time
+| Google Container Registry | 1 | GCR was used on this course in part 3 
 
-
-
-
+### Special - Kubernetes Certified Service Provider
+| Service/Logo | Selection | Description |
+| :------------ |:---------| :-----------:| 
+| Microsoft Azure | 3 | - |
