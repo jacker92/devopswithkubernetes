@@ -49,10 +49,10 @@ After comparing these two platforms and reading reviews about them, I came to co
 
 <img src="https://github.com/jacker92/devopswithkubernetes/blob/master/landscape.png"></img>
 
-Column "Selection" can be one of the following:
-- 1: Used on this course . Something that you knew that you were using it (black)
+Column *"Selection"* can be one of the following:
+- 1: Used on this course. Something that you knew that you were using it (black in the pic)
 - 2: Something that has been used in this course that something was depending on (red in the pic)
-- 3 : Used outside of this course (black in the pic)
+- 3: Used outside of this course (black in the pic)
 
 ### Database
 
